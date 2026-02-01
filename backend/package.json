@@ -1,0 +1,14 @@
+{
+  "name": "ssrf-demo-project",
+  "version": "0.1.0",
+  "description": "SSRF vulnerability demo and protection in Node.js/Express",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start:vulnerable": "node server-vulnerable.js",
+    "start:secure": "node server-secure.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
